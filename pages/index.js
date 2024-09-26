@@ -1,7 +1,7 @@
 import { useRouter } from "next/router"
 import { v4 as uuidv4 } from "uuid"
 import styles from '@/styles/Home.module.css'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   
@@ -32,3 +32,4 @@ export default function Home() {
    </div>
   )
 }
+
